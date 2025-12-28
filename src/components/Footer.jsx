@@ -29,7 +29,7 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold text-white mb-3">Contact</h4>
           <p className="text-sm">📍 Pune, Maharashtra</p>
-          <p className="text-sm">📞 +91 XXXXXXXXXX</p>
+          <p className="text-sm">📞 +91 9175647042</p>
           <p className="text-sm">✉ lifesuccessfoundation@gmail.com</p>
         </div>
       </div>

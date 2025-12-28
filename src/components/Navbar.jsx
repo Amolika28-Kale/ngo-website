@@ -24,8 +24,8 @@ export default function Navbar() {
           <Link to="/" className={linkClass("/")}>Home</Link>
           <a href="#who-we-are" className="hover:text-green-600">Who We Are</a>
           <a href="#what-we-do" className="hover:text-green-600">What We Do</a>
-          <Link to="/gallery" className={linkClass("/gallery")}>Gallery</Link>
-          <Link to="/contact" className={linkClass("/contact")}>Contact</Link>
+          <a href="#gallery" className="hover:text-green-600">Gallery</a>
+          <a href="#contact" className="hover:text-green-600">Contact</a>
         </nav>
 
         {/* Donate Button */}
@@ -48,11 +48,11 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-white border-t px-6 py-6 space-y-4 font-medium">
-          <a href="/" onClick={() => setOpen(false)} className="block">Home</a>
+          <Link to="/" onClick={() => setOpen(false)} className="block">Home</Link>
           <a href="#who-we-are" onClick={() => setOpen(false)} className="block">Who We Are</a>
           <a href="#what-we-do" onClick={() => setOpen(false)} className="block">What We Do</a>
-          <Link to="/gallery" onClick={() => setOpen(false)} className="block">Gallery</Link>
-          <Link to="/contact" onClick={() => setOpen(false)} className="block">Contact</Link>
+          <a to="#gallery" onClick={() => setOpen(false)} className="block">Gallery</a>
+          <a href="#contact" onClick={() => setOpen(false)} className="block">Contact</a>
 
           <Link
             to="/donate"
