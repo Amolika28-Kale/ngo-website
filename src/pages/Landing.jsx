@@ -19,17 +19,17 @@ export default function Landing() {
       {/* ================= HERO ================= */}
       <section
         id="home"
-        className="pt-36 pb-28 bg-gradient-to-br from-green-50 via-white to-green-100"
+        className="pt-36 pb-28 bg-gradient-to-br from-pink-50 via-white to-pink-100"
       >
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <span className="inline-block mb-4 px-6 py-2 rounded-full bg-green-100 text-green-700 font-semibold">
+            <span className="inline-block mb-4 px-6 py-2 rounded-full bg-pink-100 text-pink-700 font-semibold">
               🌱 Empowering Society Since 2014
             </span>
 
             <h1 className="text-4xl md:text-6xl font-extrabold text-gray-800">
               Empowering Minds,
-              <span className="text-green-600 block">Transforming Lives</span>
+              <span className="text-pink-600 block">Transforming Lives</span>
             </h1>
 
             <p className="mt-6 text-lg text-gray-600">
@@ -41,13 +41,13 @@ export default function Landing() {
             <div className="mt-10 flex gap-6 flex-wrap">
               <a
                 href="/donate"
-                className="bg-green-600 text-white px-10 py-4 rounded-full font-semibold hover:bg-green-700 transition"
+                className="bg-pink-600 text-white px-10 py-4 rounded-full font-semibold hover:bg-pink-700 transition"
               >
                 Donate Now
               </a>
               <a
                 href="#who-we-are"
-                className="border-2 border-green-600 text-green-600 px-10 py-4 rounded-full font-semibold hover:bg-green-600 hover:text-white transition"
+                className="border-2 border-pink-600 text-pink-600 px-10 py-4 rounded-full font-semibold hover:bg-pink-600 hover:text-white transition"
               >
                 Know More
               </a>
@@ -73,7 +73,7 @@ export default function Landing() {
 
           <div>
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
-              Who <span className="text-green-600">We Are</span>
+              Who <span className="text-pink-600">We Are</span>
             </h2>
 
             <p className="text-gray-600 text-lg mb-4">
@@ -100,7 +100,7 @@ export default function Landing() {
       <section id="gallery" className="py-28 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-12">
-            Moments of <span className="text-green-600">Transformation</span>
+            Moments of <span className="text-pink-600">Transformation</span>
           </h2>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -122,7 +122,7 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center mb-16">
           <div>
             <h2 className="text-4xl font-bold mb-6">
-              What <span className="text-green-600">We Do</span>
+              What <span className="text-pink-600">We Do</span>
             </h2>
             <p className="text-gray-600 text-lg">
               We empower individuals and communities through education, care,
@@ -148,9 +148,9 @@ export default function Landing() {
           ].map(([title, desc], i) => (
             <div
               key={i}
-              className="bg-green-50 p-8 rounded-3xl shadow hover:shadow-xl transition"
+              className="bg-pink-50 p-8 rounded-3xl shadow hover:shadow-xl transition"
             >
-              <h3 className="text-xl font-bold text-green-600 mb-3">{title}</h3>
+              <h3 className="text-xl font-bold text-pink-600 mb-3">{title}</h3>
               <p className="text-gray-600">{desc}</p>
             </div>
           ))}
@@ -161,7 +161,7 @@ export default function Landing() {
       <section className="py-28 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 text-center mb-14">
           <h2 className="text-4xl font-bold">
-            Our <span className="text-green-600">Core Programs</span>
+            Our <span className="text-pink-600">Core Programs</span>
           </h2>
         </div>
 
@@ -176,7 +176,7 @@ export default function Landing() {
               key={i}
               className="bg-white p-8 rounded-3xl shadow text-center"
             >
-              <h3 className="font-bold text-green-600">{title}</h3>
+              <h3 className="font-bold text-pink-600">{title}</h3>
             </div>
           ))}
         </div>
@@ -196,7 +196,7 @@ export default function Landing() {
             ["Our Story", "Founded by Dr. Sachin Tapse to transform minds."],
           ].map(([title, text], i) => (
             <div key={i} className="bg-white p-10 rounded-3xl shadow">
-              <h3 className="text-2xl font-bold text-green-600">{title}</h3>
+              <h3 className="text-2xl font-bold text-pink-600">{title}</h3>
               <p className="mt-4 text-gray-600">{text}</p>
             </div>
           ))}
@@ -206,7 +206,7 @@ export default function Landing() {
       {/* ================= CONTACT ================= */}
       <section id="contact" className="py-28 bg-gray-50 text-center">
         <h2 className="text-4xl font-bold text-gray-800">
-          Get in <span className="text-green-600">Touch</span>
+          Get in <span className="text-pink-600">Touch</span>
         </h2>
 
         <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
@@ -216,7 +216,7 @@ export default function Landing() {
         <div className="mt-12 flex justify-center gap-6 flex-wrap">
           <a
             href="tel:+919175647042"
-            className="bg-green-600 text-white px-10 py-4 rounded-full font-semibold hover:bg-green-700 transition"
+            className="bg-pink-600 text-white px-10 py-4 rounded-full font-semibold hover:bg-pink-700 transition"
           >
             📞 Call Now
           </a>
@@ -225,7 +225,7 @@ export default function Landing() {
             href="https://wa.me/919175647042"
             target="_blank"
             rel="noreferrer"
-            className="border-2 border-green-600 text-green-600 px-10 py-4 rounded-full font-semibold hover:bg-green-600 hover:text-white transition"
+            className="border-2 border-pink-600 text-pink-600 px-10 py-4 rounded-full font-semibold hover:bg-pink-600 hover:text-white transition"
           >
             💬 WhatsApp
           </a>
@@ -233,18 +233,18 @@ export default function Landing() {
       </section>
 
       {/* ================= DONATE ================= */}
-      <section className="py-32 bg-gradient-to-r from-green-600 to-emerald-600 text-white text-center">
+      <section className="py-32 bg-gradient-to-r from-pink-600 to-emerald-600 text-white text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold">
           Together, We Can Change Lives
         </h2>
 
-        <p className="mt-6 text-green-100 max-w-3xl mx-auto text-lg">
+        <p className="mt-6 text-pink-100 max-w-3xl mx-auto text-lg">
           Your contribution helps us reach more lives and build a better future.
         </p>
 
         <a
           href="/donate"
-          className="mt-10 inline-block bg-white text-green-600 px-14 py-5 rounded-full font-bold shadow-xl hover:scale-105 transition"
+          className="mt-10 inline-block bg-white text-pink-600 px-14 py-5 rounded-full font-bold shadow-xl hover:scale-105 transition"
         >
           Donate Now
         </a>
